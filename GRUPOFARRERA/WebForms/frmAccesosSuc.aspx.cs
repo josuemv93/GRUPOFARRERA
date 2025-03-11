@@ -51,6 +51,11 @@ public partial class WebForms_frmAccesosSuc2 : System.Web.UI.Page
                 DropDownList1.Items.Insert(0, new ListItem("--Seleccione Empresa--", "0"));
 
 
+                cadena = "SELECT nombre from Cat_Acciones";
+                conexion.Autocompletar(DropDownList2, cadena);
+                DropDownList2.Items.Insert(0, new ListItem("--¿En que te puedo apoyar?--", "0"));
+
+
 
 
             }

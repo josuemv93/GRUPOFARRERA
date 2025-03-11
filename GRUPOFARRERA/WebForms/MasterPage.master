@@ -5,7 +5,7 @@
 <head runat="server">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <title>ArKaSis.NET</title>
+ <title>GRUPO FARRERA</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -532,8 +532,29 @@
             <li><a href="webExplorerCsolicitud.aspx"><i class="fa fa-circle-o"></i> Control de solicitudes</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Cargar layout</a></li>
           </ul>
-
-
+        </li>
+         <li class="treeview">
+          <a href="#">
+            <i class="fa fa-laptop"></i>
+            <span>Capacitaciones</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="webExplorerPersonal.aspx"><i class="fa fa-circle-o"></i> Temarios</a></li>
+            <li><a href="webExplorerCredencial.aspx"><i class="fa fa-circle-o"></i> Capacitaciones</a></li>
+            <li><a href="webExplorerCsolicitud.aspx"><i class="fa fa-circle-o"></i> Evaluaciones</a></li>
+          </ul>
+        </li>
+         <li class="treeview">
+          <a href="#">
+            <i class="fa fa-laptop"></i>
+            <span>Soporte Técnico</span>
+            <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="webExplorerPersonal.aspx"><i class="fa fa-circle-o"></i> Alta de Correos</a></li>
+            <li><a href="webExplorerCredencial.aspx"><i class="fa fa-circle-o"></i> Control de Correos</a></li>
+          </ul>
         </li>
          <li class="treeview">
           <a href="#">

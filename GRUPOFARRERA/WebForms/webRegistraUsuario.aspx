@@ -4,6 +4,7 @@
 <asp:Content ID="seccion1" ContentPlaceHolderID="Encabezado" runat="server">
 
 
+
     <div class="row">
         <div class="col-md-6">
 
@@ -141,8 +142,7 @@
                  <div class="form-group">
                   <label for="exampleInputNombre1">¿Desea otorgar accesos a las Apps Farrera?</label>
                      <asp:ListBox ID="ltApps" class="form-control" runat="server" SelectionMode="Multiple"></asp:ListBox>
-                     
-                  
+                  <button type="button" id="Button3" runat="server" onserverclick="Button2_Click" class="btn btn-primary">Validar!</button>
                 </div>
               </div>
               <!-- /.box-body -->
@@ -435,6 +435,10 @@
            }
 
        </script>
+
+
+
+    </div>
 
 
 

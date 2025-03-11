@@ -257,4 +257,25 @@ public partial class WebForms_webRegistraUsuario : System.Web.UI.Page
         double result;
         return double.TryParse(valor, out result) ? result : 0;
     }
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        string selectedValues = string.Empty;
+        foreach (ListItem item in ltApps.Items)
+        {
+
+            if (item.Selected)
+            {
+
+                selectedValues += item.Text + "<br />";
+
+            }
+
+        }
+
+        ClientScript.RegisterStartupScript(this.GetType(), "mensaje", "<script> swal('Verifique!', '" + selectedValues + "', 'warning') </script>");
+
+    }
+
+   
 }

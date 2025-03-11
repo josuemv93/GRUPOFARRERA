@@ -45,6 +45,15 @@
               </asp:DropDownList>
         </td>
     </tr>
+     <tr>
+        <td style="text-align:right">
+           Que vamos a realizar?: 
+        </td>
+        <td>
+            <asp:DropDownList ID="DropDownList2" CssClass="form-control"  runat="server"  ForeColor="Black" Style="text-transform: uppercase; top: 0px; left: 0px; display:inline;border:1px Solid Red;">
+              </asp:DropDownList>
+        </td>
+    </tr>
 
 </table>
    <asp:TextBox ID="TextBox1" runat="server" Visible="False"></asp:TextBox>
